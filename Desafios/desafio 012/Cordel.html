@@ -24,17 +24,27 @@
     }
     main{
         font-family: Sriracha, sans-serif ;
-        background-color: white;
+        
     }
     .simg{
         text-align: left;
         width: 300px;
         font-size: 30px;
+        background-color: white;
     }
-    #img1{
+    #cimg1{
         background-image: url(imagens/background001.jpg);
-        width: 300px;
-        height: 300px;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 500px;
+
+    }
+    .timg{
+        background-color: rgba(0, 0, 0, 0.295);
+        color: white;
+        margin: 50px 0px 0px 30px
+        width:300px
     }
     .negrito{
         display: inline;
@@ -66,8 +76,8 @@
         Vou dizer tudo em poesia.
     </p>
     
-    <div class="img1">
-        <p id="cimg1">
+    <div id="cimg1">
+        <p class="timg">
             Não é mais como era antes
             É tudo abreviado
             "Você" só tem duas letras
